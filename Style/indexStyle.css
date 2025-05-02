@@ -1,0 +1,663 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Mar 2025, 8:58:58 AM
+    Author     : Phenyo Kekae
+*/
+
+
+/*THE WHOLE PAGE*/
+/*Property OF PHENYO KEKAE*/
+ body{background-color: #ffff;}
+/*THE WHOLE PAGE*/
+/*THIS IS WHERE THE STYLING OF THE HEADER WILL BEGIN */
+h1
+{
+    font-family: 'Darker Grotesque';font-size: 25px;
+}
+/*THIS IS WHERE THE WORLD ICON IS STYLED*/
+/*ThIS IS STYLING FOR THE WHOLE NAVBAR*/
+header
+{
+    background-color: #ffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+    
+}
+/*ThIS IS NAVBAR CONTAINER*/
+.wNavebar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+/*HEADER LOGO STYLING*/
+.logo
+{
+    cursor: default;
+    padding: 20px 20px 20px 0;
+}
+
+i
+{
+    color:  #737373;;
+}
+em {
+    font-style: normal; /* Removes italic style */
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #00bf63;
+  }
+  h1
+  {
+    color: #a6a6a6;
+  }
+  /*MENU BAR*/
+  .wNavebar img
+  {
+      padding: 50px 0px 50px 20px;
+      width: 40px;
+      height: auto;
+  }
+/*NAVBAR ITEMS */
+
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+}
+.menu ul li
+{
+    padding: 30px;
+}
+.menu ul li:hover
+{
+    inline-size: auto;
+    background-color: #00bf63;
+    color: #ffff;
+}
+.menu a
+{
+    text-decoration: none;
+    color: #737373;
+}
+.logins a
+{
+    text-decoration: none;
+    color: #737373;
+}
+.logins
+{
+    margin-right: 50px;
+    
+}
+.logins ul
+{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+.logins ul li
+{
+    margin-left: 0 50px;
+    text-decoration: none;
+    padding: 30px;
+    background-color: #128C7E;
+    color: #fff;
+}
+.logins ul li:hover
+{
+    inline-size: auto;
+    background-color: #00bf63;
+    color: #ffff; 
+}
+  
+ /*NAVBAR ITEMS */
+ .nav-sidebar
+ {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     margin: auto;
+     width: 100%;
+     height: 78.5%;
+     background-color: #fff;
+     z-index: 1000;
+     visibility: hidden;
+     
+ }
+   .nav-sidebar ul
+ {
+     padding-top: 15px;
+     overflow: hidden;
+ }
+   .nav-sidebar ul li
+ {
+     line-height: 60px;
+     list-style: none;
+ }
+    .nav-sidebar ul li:hover
+ {
+     background-color: #00bf63;
+     color: #fff;
+ }
+    .nav-sidebar ul li span
+ {
+     display: block;
+     height: 60px;
+     padding: 0 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #fff;
+     font-family: sans-serif;
+     font-size: 14px;
+     white-space: nowrap;
+     background-color: #a6a6a6;
+ }
+   .nav-sidebar ul li a
+ {
+     display: block;
+     height: 60px;
+     padding: 0 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: black;
+     font-family: sans-serif;
+     font-size: 16px;
+     white-space: nowrap;
+ }
+.nav-sidebar ul li a:hover
+{
+    color: #fff;
+}
+/*ThIS IS NAVBAR CONTAINER*/
+/*Property OF PHENYO KEKAE--*/
+
+  /*MAIN STYLING*/
+  main img
+  {
+    margin-bottom: 50px;
+    border-radius: 0 0 10px 10px ;
+  }
+  .welcome
+  {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  .ITpic
+  {
+    width: 42%;
+  }
+  .welcomeTo
+  {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  .wPara
+  {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+  }
+  .sPic
+  {
+    width: 42%;
+    float: right;
+    
+  }
+  .SPara
+  {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+  }
+ 
+  .services
+  {
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+  }
+  .services img
+  {
+    margin-top: 5%;
+  }
+  .Phenyo
+  {
+    width: 47%;
+    height: 100vh;
+    background-color:#00bf63;
+    margin: auto;
+    text-align: center;
+  }
+  .Lesley
+  {
+    width: 47%;
+    height: 100vh;
+    background-color: #a6a6a6;
+    margin: auto;
+    text-align: center;
+  }
+
+  /*Button stylink -SERVICE LINKS*/
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .button:hover
+    {
+      background-color: #93dfba;
+      color: #128C7E;
+    }
+    .button1 {
+    background-color: #767676; /* Dark Grey */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .button1:hover
+    {
+      background-color: #cccccc;
+      color: #737373;
+    }
+    .button2 {
+      background-color: #04AA6D; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: auto;
+      }
+      .button2:hover
+      {
+        background-color: #93dfba;
+        color: #128C7E;
+      }
+  /*Button stylink -SERVICE LINKS*/
+/*THIS IS WHERE THE RESPONSIVENESS OF THE WEBPAGE WILL BEGIN*/
+/*700 - max*/
+@media only screen and (max-width: 700px) {
+
+    body
+    {
+        /*BLUE BLOCK*/
+        background-color: #fff;/*Can only see logo(Squashed) and nav////create a menu button---Phone */ 
+        
+    }
+    .menu
+    {
+        visibility: hidden;
+    }
+    .logins
+    {
+        visibility: hidden;
+        display: flex;
+    }
+    .logo 
+    {
+        margin-left: 100px;
+        align-content: center;
+    }
+    i
+    {
+        align-self: center;
+    }
+    h1
+    {
+        
+        display: flex;
+        
+    }
+    .services
+    {
+      display: inline-block;
+  
+    }
+    .wNavebar img:hover
+    {
+        opacity: 40%;
+    }
+    .Phenyo
+    {
+      width: 47%;
+      height: 80%;
+      background-color:#00bf63;
+      padding: 2%;
+    }
+    .Lesley
+    {
+      width: 47%;
+      height: 80%;
+      background-color: #a6a6a6;
+      padding: 2%;
+    }
+    .Cwindow
+    {
+        width: 80%;
+        display: inline;
+            
+    }
+  }
+  /*700 - min*/
+  @media only screen and (min-width: 700px) {
+    body
+    {
+        /*RED BLOCK---rgb(255, 0, 21)*/
+        background-color: #fff;/*Can see everything in nav/////create menu button---Tab */
+    }
+
+  }
+    /*800 - max*/
+    @media only screen and (max-width: 800px) 
+    {
+      
+    }
+  /*900 - min*/
+  @media only screen and (min-width: 1000px) {
+    body
+    {
+        /*BABY BLUE BLOCK---rgb(0, 183, 255)*/
+        background-color: #fff;/*Can see everything in nav/////create menu button---tab */
+    }
+    .wNavebar img
+    {
+        visibility: visible;
+    }
+    .logo{margin-right: auto;}
+    .p1
+    {
+      display: flex;
+    }
+    .p2
+    {
+      display: flex;
+    }
+    .l1
+    {
+        display: flex;
+        
+    }
+    .l2
+    {
+        display: flex;
+        
+    }
+    .Cwindow
+    {
+        width: 50%;
+        display: list-item;
+    }
+  }
+  /*900 - max*/
+  @media only screen and (max-width: 1200px) 
+  {
+    .menu
+    {
+        visibility: hidden;
+    }
+    .logins
+    {
+        visibility: hidden;
+        display: flex;
+        margin-right: 10%;
+    }
+    .logo 
+    {
+        margin-left: 35%;
+        align-content: center;
+    }
+    i
+    {
+        align-self: center;
+    }
+    h1
+    {
+        
+        display: flex;
+        
+    }
+
+
+    .wNavebar img:hover
+    {
+        opacity: 40%;
+    }
+
+    .Cwindow
+    {
+        width: 50%;
+        display: flex;
+    }
+    
+  }
+    @media only screen and (min-width: 1100px) {
+
+        .wNavebar img
+        {
+            visibility: hidden;
+        }
+    }
+  @media only screen and (min-width: 1200px) {
+    body
+    {
+        /*SLIME GREEN BLOCK----rgb(166, 255, 0)*/
+        background-color: #fff;/*Can see everything in nav/////create menu button---Desktop */
+    }
+    .wNavebar img
+    {
+        visibility: hidden;
+    }
+    .logo{margin-right: auto;}
+    .Phe
+    {
+        margin: auto;
+        display: flex;
+        
+       
+    }
+    .p1
+    {
+        display: flex;
+       
+    }
+    .p2
+    {
+        display: flex;
+        
+    }
+    .Les
+    {
+        margin: auto;
+        display: flex;
+        
+    }
+    .l1
+    {
+        display: flex;
+        
+    }
+    .l2
+    {
+        display: flex;
+       
+    }
+    .top
+    {
+        width: 20%;
+        height: 40%;
+    }
+    .Cwindow
+    {
+        width: 50%;
+        display: flex;
+    }
+  }
+    /*1800 - max*/
+    @media only screen and (min-width: 500px) 
+    {
+      .Phenyo
+      {
+        width: 45%;
+        height: 50%;
+        background-color:#00bf63;
+
+      }
+      .Lesley
+      {
+        width: 45%;
+        height: 50%;
+        background-color: #a6a6a6;
+        
+      }
+      .services
+      {
+        margin-bottom: 10%;
+        
+      }
+      .card
+      {
+        margin: auto;
+      }
+      footer
+      {
+        margin: auto;
+      }
+  }
+  /*ThIS IS STYLING FOR THE WHOLE NAVBAR*/
+  /*Property OF PHENYO KEKAE*/
+   /*MAIN STYLING*/
+   /*Property OF PHENYO KEKAE*/
+   /*FOOTER STYLING*/
+    footer
+    {
+        width: 100%;
+        height: 35vh;
+        margin-top: 65px;
+        background-color: #737373;
+        text-align: center;
+        
+        
+    }
+    h2
+    {
+        padding: 10px;
+    }
+
+    .card {
+        width: 60%;
+        height: fit-content;
+        background-color: #737373;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 25px;
+        gap: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+        margin-left: 18%;
+        
+      }
+      
+      /* for all social containers*/
+      .socialContainer {
+        width: 52px;
+        height: 52px;
+        background-color:#a6a6a6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition-duration: .3s;
+      }
+      /* instagram*/
+      .containerOne:hover {
+        background-color: #d62976;
+        transition-duration: .3s;
+      }
+      /* twitter*/
+      .containerTwo:hover {
+        background-color: #00acee;
+        transition-duration: .3s;
+      }
+      /* linkdin*/
+      .containerThree:hover {
+        background-color: #0072b1;
+        transition-duration: .3s;
+      }
+      /* Whatsapp*/
+      .containerFour:hover {
+        background-color: #128C7E;
+        transition-duration: .3s;
+      }
+      /* Email*/
+      .containerFive:hover {
+        background-color: #f31009;
+        transition-duration: .3s;
+      }
+      /* FaceBook*/
+      .containerSix:hover {
+        background-color: #0967f3;
+        transition-duration: .3s;
+      }
+      
+      .socialContainer:active {
+        transform: scale(0.9);
+        transition-duration: .3s;
+      }
+      
+      .socialSvg {
+        width: 17px;
+      }
+      
+      .socialSvg path {
+        fill: rgb(255, 255, 255);
+      }
+      
+      .socialContainer:hover .socialSvg {
+        animation: slide-in-top 0.3s both;
+      }
+      
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      
+   /*FOOTER STYLING*/

@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Mar 2025, 2:07:20 PM
+    Author     : Phenyo Kekae
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Aboreto:300);
+
+/*THIS IS THE LOGINS PAGE SQUARE PARAMETERS*/
+
+body
+{
+    background-color: #104d21;
+}
+
+/*THIS IS STYLING THAT AFFECTS THE WHOLE FORM */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 0px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/*THIS IS INPUT STYLING FOR THE FORM*/
+.form input {
+  
+}
+/*THIS IS STYLING FOR THE FORM*/
+
+/*THESE ARE THE HOVER FUNCTIONS FOR THE CODE*/
+            .formContainer
+            {
+                width: 100%;
+                height: 30%;
+                display: flex;
+                margin-top: 50px;
+            }
+            .kfs
+            {
+                width: 100%;
+                text-align: center;
+            }
+/*THIS IS THE FORM LINK TO ADMIN*/
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.form-btn:hover {
+    background: #4CAF50;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}

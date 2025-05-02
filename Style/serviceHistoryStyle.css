@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Mar 2025, 11:41:18 AM
+    Author     : Phenyo Kekae
+*/
+
+        table 
+        {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+        .stanTable
+        {
+            padding: 50px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            cursor: pointer;
+            font-size: 20px;
+          }
+
+          /* Darker background on mouse-over */
+        .btn:hover {
+          background-color: #104d21;
+        }
+        .downloadBtn
+        {
+            margin-top: 50px;
+        }
+        .searchFilter
+        {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 30px;
+            
+        }
+        .form-container {
+            display: flex;
+            gap: 10px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+        .form-container input:focus {
+            border-color: #007bff;
+        }

@@ -1,0 +1,200 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Mar 2025, 10:25:19 AM
+    Author     : Phenyo Kekae
+*/
+
+        .c1
+        {
+            width: 100%;
+            height: 40%;
+            background-color: #00bf63;
+            text-align: center;
+        }
+
+        
+        main
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .Cwindow
+        {
+            width: 30%;
+            height: 20%;
+            background-color: #fff;
+
+        }
+        .center 
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%; 
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            text-decoration: none;
+       }
+/*This is where the main of services is styles*/
+        .menu-options
+        {
+            display: flex;
+            margin: 8%;
+        }
+        .center {
+          margin: auto;
+          width: 40%;
+          border: 3px solid #73AD21;
+          padding: 10px;
+          text-align: center;
+          cursor: pointer;
+        }
+        .center:hover
+        {
+            background-color: #73AD21;
+            color: #fff;;
+        }
+        /*This is where the main of services is styles*/
+        /*Column 1/2 Row 1/2*/
+        .services
+        {
+            display: flex;
+        }
+        .service img:hover
+        {
+            width: 70%;
+        }
+        .service {
+          margin: auto;
+          width: 40%;
+          height: auto;
+         /* border: 3px solid #73AD21;*/
+         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          padding: 10px;
+          text-align: center;
+          cursor: pointer;
+          
+        }
+        .service:hover
+        {
+            
+            
+        }
+        /*Column 1/2 Row 1/2*/
+        /*Column 3/4 Row 1/2*/
+        .service1 {
+          margin: auto;
+          width: 40%;
+          height: auto;
+          /*border: 3px solid #ad2144;*/
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          padding: 10px;
+          text-align: center;
+          cursor: pointer;
+          
+        }
+        .service1:hover
+        {
+            /*background-color: #ad2144;
+            color: #fff;*/
+        }
+        .service1 img:hover
+        {
+            width: 70%;
+        }
+        /*Column 3/4 Row 1/2*/
+        /*SERVICE FORM */
+        .serviceForm
+        {
+          width: 85%;
+          margin: auto;
+          height: auto;
+          /*border: 3px solid #73AD21;*/
+          
+          padding: 10px;
+          text-align: center;
+          cursor: pointer;
+          
+        }
+        .closee
+        {
+            float: right;
+        }
+        /*SERVICE FORM */
+        /*THIS IS STYLING THAT AFFECTS THE WHOLE FORM */
+    .form {
+      position: relative;
+      z-index: 1;
+      background: #FFFFFF;
+      max-width: 360px;
+      margin: 0 auto 0px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    /*THIS IS INPUT STYLING FOR THE FORM*/
+    .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    /*THIS IS STYLING FOR THE FORM*/
+
+    /*THESE ARE THE HOVER FUNCTIONS FOR THE CODE*/
+
+    /*THIS IS THE FORM LINK TO ADMIN*/
+    .form .message {
+      margin: 15px 0 0;
+      color: #b3b3b3;
+      font-size: 12px;
+    }
+    .form .message a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .form .register-form {
+      display: none;
+    }
+    .form-btn:hover {
+        background: #4CAF50;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    .container:before, .container:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .container .info {
+      margin: 50px auto;
+      text-align: center;
+    }
+    .container .info h1 {
+      margin: 0 0 15px;
+      padding: 0;
+      font-size: 36px;
+      font-weight: 300;
+      color: #1a1a1a;
+    }
+    .container .info span {
+      color: #4d4d4d;
+      font-size: 12px;
+    }
+    .container .info span a {
+      color: #000000;
+      text-decoration: none;
+    }
+    /*This is where the main of services is styles*/
